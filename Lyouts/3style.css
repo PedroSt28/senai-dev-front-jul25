@@ -1,0 +1,74 @@
+*{
+padding: 0px; /* margem interna */
+margin: 0px;/* margem externa*/
+box-sizing: border-box; /* muda estrutura de espaçamento*/
+font-family:"Inter";
+ }
+
+.cabeça{
+
+background-color: blueviolet;
+width: 1,920px ;
+height: 71px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.logo{
+
+height: 60px;
+width: 60px;
+border-radius: 60px;
+margin: 70px;
+
+}
+
+.trabalho{
+
+margin: 20px;
+display: flex;
+
+}
+
+.pagina{
+
+margin: 20px;
+list-style-type: none;
+
+}
+
+/*.trabalho li{
+
+list-style-type: none;
+
+}
+*/
+
+.main{
+
+display: flex;
+
+}
+
+.img1{
+
+background-image: url(../Lyouts/assets/fundo\ samurai.jpg);
+height:70vh;
+width: 45vw;
+margin: 70px;
+
+}
+
+.texto{
+
+margin-top: 70px;
+margin-right: 70px;
+height:70vh;
+width: 45vw;
+
+
+}
+
